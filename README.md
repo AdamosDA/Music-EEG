@@ -8,7 +8,12 @@ The experiment followed a passive music-listening design and consisted of two st
 2. the “actual” music-listening during which the brain activity was recorded in strict association with the playlist.
 
 ## Ratings assignment and song selection
-Participants were initially guided to compile their own personalised playlists. For each playlist, in accordance with the participant’s musical taste, the selected songs had to be uniformly distributed among the following three numerically-ranked categories: 1 or low rating: “This song is OK, but nothing special”, 3 or medium rating: “I like this song and would listen again”, 5 or high rating: “this song belongs to my favourites”. During the preparatory phase of the experiment, every participant worked closely with an assistant to prepare his personalized playlist by allocating 10 songs in each of the three ranked groups (1,3,5). An 80-second audio thumbnail extract was carefully selected for each song, focusing on the verse-chorus summarization and following a section-transition strategy to capture its “hook”.
+Participants were initially guided to compile their own personalised playlists. For each playlist, in accordance with the participant’s musical taste, the selected songs had to be uniformly distributed among the following three numerically-ranked categories: 
+- 1 or low rating: “This song is OK, but nothing special”, 
+- 3 or medium rating: “I like this song and would listen again”, 
+- 5 or high rating: “this song belongs to my favourites”. 
+
+During the preparatory phase of the experiment, every participant worked closely with an assistant to prepare his personalized playlist by allocating 10 songs in each of the three ranked groups (1,3,5). An 80-second audio thumbnail extract was carefully selected for each song, focusing on the verse-chorus summarization and following a section-transition strategy to capture its “hook”.
 
 ## Recording information
 Brainwave data were then acquired using Emotiv EPOC+ mobile EEG recording headset (http://emotiv.com). The experiment started with the recording of resting-state EEG activity for each participant (70s), followed by the random playback of all 30 songs with a 10-second silence period in-between. Consequently, the resulting dataset consisted of 30 music-listening EEG trials with a duration of 80s for each participant. The participants were instructed to sit comfortably and enjoy the music, while a short break of 2-3 minutes was induced half-way (without removing the EEG headset) for their convenience. 

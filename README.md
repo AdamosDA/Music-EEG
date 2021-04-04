@@ -17,7 +17,7 @@ Bakas, S., Adamos, D.A., Laskaris, N. (2021). On the estimate of Music Appraisal
 The preprocessing of the raw EEG signals was carried out in Matlab. The raw EEG multichannel signals were filtered within the 1-45 Hz range using a zero-phase band-pass filter (3rd order Butterworth). To remove artifactual activity from eyes, muscle and cardiac interference we resorted to independent component analysis (ICA) . Artifact suppression was carried out separately for each trial, based on an in-house implementation of wavelet-enhanced ICA (wICA). Specifically, the independent components (ICs), derived of the multichannel signal were detected by employing ICA with the use of the EEGLAB  Matlab toolbox. Subsequently, wavelet decomposition based on wavelets of the biorthogonal family and wavelet shrinkage with a hard threshold based on false discovery rate were applied to each one of the ICs. The multichannel signal was then reconstructed based on the artifact-free ICs. 
 
 ## Dataset contents
-	EEG_Rest ( n_subjects×n_sensors  ×n_(time_points)   double): 70s of resting state EEG for each subject
+	EEG_Rest ( n_subjects × n_sensors × n_(time_points) double): 70s of resting state EEG for each subject
 	EEG_Songs ( n_subjects×n_songs×n_sensors  ×n_(time_points)  double): 80s of music-listening EEG  for each song for each subject
 	song_ratings ( n_subjects×n_songs double): subjective liking ratings assigned by each subject for each song
 	Fs (double): the sampling frequency of the EEG (i.e. 128 Hz)

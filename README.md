@@ -1,4 +1,4 @@
-# Music-EEG Experiment Dataset
+# EEG Music-listening Experiment Dataset
 
 ## Description of the dataset
 This dataset contains recordings of EEG during music-listening from an experiment conducted at the School of Music Studies of the Aristotle University of Thessaloniki (AUTh). Twenty AUTh students (mean(std) age: 22.7 (+/- 2.8) y.o.; 10 females; 6 without any musical training) were invited to participate in a personalized music-listening experiment.

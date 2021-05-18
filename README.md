@@ -21,7 +21,7 @@ Brainwave data were then acquired using Emotiv EPOC+ mobile EEG recording headse
 ## Citation
 When using this dataset, please site the original publication:
 
-**Bakas, S., Adamos, D.A., Laskaris, N. (2021)**. *On the estimate of Music Appraisal from surface EEG :  a dynamic-network approach based on Cross-Sensor PAC measurements*. Manuscript submitted for publication.
+**Bakas, S., Adamos, D. A., & Laskaris, N. (2021)**.*On the estimate of Music Appraisal from surface EEG :  a dynamic-network approach based on Cross-Sensor PAC measurements. Journal of neural engineering*, 10.1088/1741-2552/abffe6. Advance online publication. https://doi.org/10.1088/1741-2552/abffe6
 
 ## Pre-processing
 The preprocessing of the raw EEG signals was carried out in Matlab. The raw EEG multichannel signals were filtered within the 1-45 Hz range using a zero-phase band-pass filter (3rd order Butterworth). To remove artifactual activity from eyes, muscle and cardiac interference we resorted to independent component analysis (ICA) . Artifact suppression was carried out separately for each trial, based on an in-house implementation of wavelet-enhanced ICA (wICA). Specifically, the independent components (ICs), derived of the multichannel signal were detected by employing ICA with the use of the EEGLAB  Matlab toolbox. Subsequently, wavelet decomposition based on wavelets of the biorthogonal family and wavelet shrinkage with a hard threshold based on false discovery rate were applied to each one of the ICs. The multichannel signal was then reconstructed based on the artifact-free ICs. 
